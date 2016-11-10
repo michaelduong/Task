@@ -35,7 +35,6 @@ class TaskListTableViewController: UITableViewController, NSFetchedResultsContro
 
 		let task = TaskController.sharedController.fetchedResultsController.object(at: indexPath)
         cell.update(withTask: task)
-        cell.delegate = self
         return cell
     }
     
