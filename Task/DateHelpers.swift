@@ -2,19 +2,18 @@
 //  DateHelpers.swift
 //  Task
 //
-//  Created by Caleb Hicks on 10/19/15.
-//  Copyright © 2015 DevMountain. All rights reserved.
+//  Created by Michael Duong on 1/24/18.
+//  Copyright © 2018 Turnt Labs. All rights reserved.
 //
 
 import Foundation
 
 extension Date {
-    
     func stringValue() -> String {
         let formatter = DateFormatter()
         formatter.dateStyle = .medium
         
         return formatter.string(from: self)
     }
-
+    
 }
